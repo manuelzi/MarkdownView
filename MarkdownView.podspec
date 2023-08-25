@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name          = "MarkdownView"
-  s.version       = "1.9.1"
+  s.version       = "1.9.2"
   s.summary       = "Markdown View for iOS."
-  s.homepage      = "https://github.com/keitaoouchi/MarkdownView"
+  s.homepage      = "https://github.com/manuelzi/MarkdownView"
   s.license       = { :type => "MIT", :file => "LICENSE" }
   s.author        = { "keitaoouchi" => "keita.oouchi@gmail.com" }
-  s.source        = { :git => "https://github.com/keitaoouchi/MarkdownView.git", :tag => "#{s.version}" }
+  s.source        = { :git => "https://github.com/manuelzi/MarkdownView.git", :tag => "#{s.version}" }
   s.source_files  = [
     "Sources/MarkdownView/MarkdownView.swift",
     "Sources/MarkdownView/MarkdownUI.swift",
